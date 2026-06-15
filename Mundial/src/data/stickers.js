@@ -1,0 +1,148 @@
+const stickers = [
+  {
+    id: 'arg-01',
+    country: 'Argentina',
+    player: 'Lionel Messi',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=Messi',
+  },
+  {
+    id: 'arg-02',
+    country: 'Argentina',
+    player: 'Emiliano Martínez',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=Martínez',
+  },
+  {
+    id: 'arg-03',
+    country: 'Argentina',
+    player: 'Lautaro Martínez',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=Lautaro',
+  },
+  {
+    id: 'arg-04',
+    country: 'Argentina',
+    player: 'Ángel Di María',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=Di+María',
+  },
+  {
+    id: 'arg-05',
+    country: 'Argentina',
+    player: 'Rodrigo De Paul',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=De+Paul',
+  },
+  {
+    id: 'arg-06',
+    country: 'Argentina',
+    player: 'Julián Álvarez',
+    image: 'https://via.placeholder.com/160x210/0A2F61/FFFFFF?text=Álvarez',
+  },
+  {
+    id: 'ecu-01',
+    country: 'Ecuador',
+    player: 'Enner Valencia',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Valencia',
+  },
+  {
+    id: 'ecu-02',
+    country: 'Ecuador',
+    player: 'Moisés Caicedo',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Caicedo',
+  },
+  {
+    id: 'ecu-03',
+    country: 'Ecuador',
+    player: 'Piero Hincapié',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Hincapié',
+  },
+  {
+    id: 'ecu-04',
+    country: 'Ecuador',
+    player: 'Félix Torres',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Torres',
+  },
+  {
+    id: 'ecu-05',
+    country: 'Ecuador',
+    player: 'Ángelo Preciado',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Preciado',
+  },
+  {
+    id: 'ecu-06',
+    country: 'Ecuador',
+    player: 'Piero Hincapié',
+    image: 'https://via.placeholder.com/160x210/0059A8/FFFFFF?text=Hincapié+2',
+  },
+  {
+    id: 'bra-01',
+    country: 'Brasil',
+    player: 'Neymar',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Neymar',
+  },
+  {
+    id: 'bra-02',
+    country: 'Brasil',
+    player: 'Vinícius Jr.',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Vinícius',
+  },
+  {
+    id: 'bra-03',
+    country: 'Brasil',
+    player: 'Alisson',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Alisson',
+  },
+  {
+    id: 'bra-04',
+    country: 'Brasil',
+    player: 'Casemiro',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Casemiro',
+  },
+  {
+    id: 'bra-05',
+    country: 'Brasil',
+    player: 'Marquinhos',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Marquinhos',
+  },
+  {
+    id: 'bra-06',
+    country: 'Brasil',
+    player: 'Rodrygo',
+    image: 'https://via.placeholder.com/160x210/026E2E/FFFFFF?text=Rodrygo',
+  },
+  {
+    id: 'mex-01',
+    country: 'México',
+    player: 'Guillermo Ochoa',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Ochoa',
+  },
+  {
+    id: 'mex-02',
+    country: 'México',
+    player: 'Hirving Lozano',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Lozano',
+  },
+  {
+    id: 'mex-03',
+    country: 'México',
+    player: 'Raúl Jiménez',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Jiménez',
+  },
+  {
+    id: 'mex-04',
+    country: 'México',
+    player: 'Andrés Guardado',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Guardado',
+  },
+  {
+    id: 'mex-05',
+    country: 'México',
+    player: 'Jesús Corona',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Corona',
+  },
+  {
+    id: 'mex-06',
+    country: 'México',
+    player: 'Edson Álvarez',
+    image: 'https://via.placeholder.com/160x210/00853F/FFFFFF?text=Álvarez',
+  },
+]
+
+export default stickers
