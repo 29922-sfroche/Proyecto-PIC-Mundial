@@ -1,4 +1,5 @@
 const stickers = [
+  // ARGENTINA - 11 JUGADORES
   {
     id: 'arg-01',
     country: 'Argentina',
@@ -36,6 +37,38 @@ const stickers = [
     image: '/images/stickers/argentina/arg-06.png',
   },
   {
+    id: 'arg-07',
+    country: 'Argentina',
+    player: 'Enzo Fernández',
+    image: '/images/stickers/argentina/arg-07.png',
+  },
+  {
+    id: 'arg-08',
+    country: 'Argentina',
+    player: 'Alexis Mac Allister',
+    image: '/images/stickers/argentina/arg-08.png',
+  },
+  {
+    id: 'arg-09',
+    country: 'Argentina',
+    player: 'Cristian Romero',
+    image: '/images/stickers/argentina/arg-09.png',
+  },
+  {
+    id: 'arg-10',
+    country: 'Argentina',
+    player: 'Nicolás Otamendi',
+    image: '/images/stickers/argentina/arg-10.png',
+  },
+  {
+    id: 'arg-11',
+    country: 'Argentina',
+    player: 'Nahuel Molina',
+    image: '/images/stickers/argentina/arg-11.png',
+  },
+
+  // ECUADOR - 11 JUGADORES
+  {
     id: 'ecu-01',
     country: 'Ecuador',
     player: 'Enner Valencia',
@@ -70,6 +103,36 @@ const stickers = [
     country: 'Ecuador',
     player: 'Gonzalo Plata',
     image: '/images/stickers/ecuador/ecu-06.png',
+  },
+  {
+    id: 'ecu-07',
+    country: 'Ecuador',
+    player: 'Pervis Estupiñán',
+    image: '/images/stickers/ecuador/ecu-07.png',
+  },
+  {
+    id: 'ecu-08',
+    country: 'Ecuador',
+    player: 'Jeremy Sarmiento',
+    image: '/images/stickers/ecuador/ecu-08.png',
+  },
+  {
+    id: 'ecu-09',
+    country: 'Ecuador',
+    player: 'Alan Franco',
+    image: '/images/stickers/ecuador/ecu-09.png',
+  },
+  {
+    id: 'ecu-10',
+    country: 'Ecuador',
+    player: 'Jackson Porozo',
+    image: '/images/stickers/ecuador/ecu-10.png',
+  },
+  {
+    id: 'ecu-11',
+    country: 'Ecuador',
+    player: 'Romario Ibarra',
+    image: '/images/stickers/ecuador/ecu-11.png',
   },
 ]
 

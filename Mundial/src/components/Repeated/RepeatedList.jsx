@@ -4,7 +4,12 @@ const RepeatedList = ({ repeated }) => {
   if (repeatedItems.length === 0) {
     return (
       <section className="repeated-section">
-        <h2>Cromos Repetidos</h2>
+        <div className="section-header">
+          <div>
+            <p className="eyebrow">Cromos Repetidos</p>
+            <h2>Guardados y listos para intercambio</h2>
+          </div>
+        </div>
         <p className="empty-state">Aún no tienes repetidos. Abre un sobre para comenzar a juntar extras.</p>
       </section>
     )
@@ -22,7 +27,7 @@ const RepeatedList = ({ repeated }) => {
         {repeatedItems.map((item) => (
           <article className="repeat-card" key={item.sticker.id}>
             <img src={item.sticker.image} alt={item.sticker.player} />
-            <div>
+            <div className="repeat-card-info">
               <strong>{item.sticker.player}</strong>
               <p>{item.sticker.country}</p>
             </div>
